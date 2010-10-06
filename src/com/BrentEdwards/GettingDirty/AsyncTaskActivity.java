@@ -43,8 +43,7 @@ public class AsyncTaskActivity extends Activity {
 	}
 	
 	private void startTask() {
-		ProgressDialog dialog = ProgressDialog.show(this,
-				"Loading...", "Loading your stuff");
+		_dialog = ProgressDialog.show(this, "Loading...", "Loading your stuff");
 		
 		_task = new SampleAsyncTask(_handler);
 		_task.execute();
