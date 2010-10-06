@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item
+		android:id="@+id/layout"
+        android:icon="@drawable/resize"
+        android:title="@string/layout" />
+    <item
+    	android:id="@+id/asynctask"
+        android:icon="@drawable/clock"
+        android:title="@string/asynctask" />
+    <item
+    	android:id="@+id/lifecycleManagement"
+        android:icon="@drawable/business"
+        android:title="@string/lifecycle_management" />
+</menu>

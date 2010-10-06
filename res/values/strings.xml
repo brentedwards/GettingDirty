@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Getting Dirty With Android</string>
+    <string name="linear">Linear</string>
+    <string name="linear_layout">Linear Layout</string>
+    <string name="relative">Relative</string>
+    <string name="relative_layout">Relative Layout</string>
+    <string name="play_with_layout">Play With Layout</string>
+    <string name="play_with_lifecycle_management">Play With Lifecycle Mgt</string>
+    <string name="set_text">Set Text</string>
+    <string name="layout">Layout</string>
+    <string name="asynctask">AsyncTask</string>
+    <string name="lifecycle_management">Lifecycle Management</string>
+    <string name="start_asynctask">Start AsyncTask</string>
+</resources>

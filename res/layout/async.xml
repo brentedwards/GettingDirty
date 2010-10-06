@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <Button
+    	android:id="@+id/startTaskButton"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_centerInParent="true"
+    	android:text="@string/start_asynctask"
+    	style="@style/Button" />
+    <TextView
+    	android:id="@+id/output"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_above="@id/startTaskButton"
+    	android:gravity="center_horizontal"
+    	style="@style/DefaultText" />
+</RelativeLayout>
