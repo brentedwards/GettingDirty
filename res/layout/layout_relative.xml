@@ -3,44 +3,4 @@
     android:orientation="vertical"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent">
-	<TextView
-		android:id="@+id/title"
-	    android:layout_width="wrap_content" 
-	    android:layout_height="wrap_content"
-	    android:layout_alignParentTop="true"
-	    android:layout_centerHorizontal="true"
-	    style="@style/Title"
-	    android:text="@string/app_name" />
-	<TextView
-		android:id="@+id/viewType"
-	    android:layout_width="wrap_content" 
-	    android:layout_height="wrap_content"
-	    android:layout_below="@id/title"
-	    android:layout_centerHorizontal="true"
-	    style="@style/Title"
-	    android:text="@string/relative_layout" />
-	<Button
-		android:id="@+id/relative"
-		android:layout_width="wrap_content"
-		android:layout_height="wrap_content"
-		android:layout_alignParentBottom="true"
-		android:layout_alignParentLeft="true"
-		style="@style/Button"
-		android:text="@string/relative"
-		android:enabled="false" />
-	<Button
-		android:id="@+id/linear"
-		android:layout_width="wrap_content"
-		android:layout_height="wrap_content"
-		android:layout_alignParentBottom="true"
-		android:layout_alignParentRight="true"
-		style="@style/Button"
-		android:text="@string/linear" />
-	<ImageView
-		android:layout_width="fill_parent"
-		android:layout_height="fill_parent"
-		android:layout_below="@id/viewType"
-		android:layout_above="@id/linear"
-		android:scaleType="fitCenter"
-		android:src="@drawable/dirtyjobs" />
 </RelativeLayout>

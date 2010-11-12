@@ -27,21 +27,5 @@ public class LayoutActivity extends Activity {
     		setContentView(R.layout.layout_relative);
     		break;
     	}
-    	
-    	Button linearButton = (Button)findViewById(R.id.linear);
-    	linearButton.setOnClickListener(new OnClickListener() {
-			
-			public void onClick(View v) {
-				setView(LINEAR);
-			}
-		});
-    	
-    	Button relativeButton = (Button)findViewById(R.id.relative);
-    	relativeButton.setOnClickListener(new OnClickListener() {
-			
-			public void onClick(View v) {
-				setView(RELATIVE);
-			}
-		});
     }
 }
