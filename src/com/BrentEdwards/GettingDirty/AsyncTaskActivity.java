@@ -43,6 +43,7 @@ public class AsyncTaskActivity extends Activity {
 	}
 	
 	private void startTask() {
+		_output.setText("");
 		_dialog = ProgressDialog.show(this, "Loading...", "Loading your stuff");
 		
 		_task = new SampleAsyncTask(_handler);
@@ -53,7 +54,7 @@ public class AsyncTaskActivity extends Activity {
 		_dialog.dismiss();
 		
 		try {
-			_output.setText(_task.get().toString());
+			_output.setText(_task.get());
 			
 		} catch (InterruptedException e) {
 			e.printStackTrace();
